@@ -1,0 +1,23 @@
+package com.mycompany.imparoupar;
+
+import java.util.Scanner;
+
+public class ImparouPar {
+
+    public static void main(String[] args) {
+    
+        Scanner sc = new Scanner(System.in);
+        
+        int valor1; 
+ 
+        System.out.println("Digite um numero?: ");
+        valor1 = sc.nextInt();
+        
+        if( valor1 %2==0){
+            System.out.println("O Numero é par");
+        }
+        else {
+            System.out.println("O Numero é impar");
+        }
+    }
+}
