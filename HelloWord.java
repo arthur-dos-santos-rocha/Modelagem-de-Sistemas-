@@ -1,0 +1,34 @@
+package com.mycompany.helloword;
+
+import java.util.Scanner;
+
+public class HelloWord {
+    public static void main(String[] args) {
+    
+          Scanner sc = new Scanner(System.in);
+       
+        String nome;
+        int valor;
+        int valor1;
+
+        
+        System.out.println("Digite seu nome");
+        nome = sc.nextLine();
+        System.out.println("Digite um valor");
+        valor = sc.nextInt();
+        System.out.println("Digite o segundo numero");
+        valor1 = sc.nextInt();
+        
+        if(valor == valor1){
+            System.out.print("Os numeros são iguais");
+        }if(valor >= valor1){
+            System.out.print("O primeiro valor e maior que o segundo");
+        }if(valor <= valor1){
+            System.out.print("O primeiro valor e menor que o segundo");
+        }
+        
+        
+
+                
+    }
+}
