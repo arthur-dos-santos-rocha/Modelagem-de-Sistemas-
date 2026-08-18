@@ -1,0 +1,26 @@
+
+package com.mycompany.segundaatt;
+
+import java.util.Scanner;
+
+
+public class Segundaatt {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int valor1; 
+        int valor2;
+        int soma;
+        
+        System.out.println("Qual é o primeiro numero?: ");
+        valor1 = sc.nextInt();
+        System.out.println("Qual é o segundo numero?: ");
+        valor2 = sc.nextInt();
+        
+        soma = (valor1+valor2)/2;
+        
+        
+        System.out.println("A Media dos dois numeros é: "+soma);
+    }
+}
