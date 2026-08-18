@@ -1,16 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+package com.mycompany.segundaatt;
 
-package com.mycompany.terceiraatt;
+import java.util.Scanner;
 
-/**
- *
- * @author aluno.senai
- */
-public class Terceiraatt {
+
+public class Segundaatt {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc = new Scanner(System.in);
+        
+        int ano; 
+       
+        System.out.println("Qual é a sua data de nascimento ");
+        ano = sc.nextInt();
+        
+
+        System.out.println("A sua idade é " + (2026 - ano));
+        
     }
 }
